@@ -1,2 +1,2 @@
 #!/bin/bash
-mv '^[A-Z]' /git/holbertonschool-shell  /tmp/u
+mv '^[A-Z]' /tmp /tmp/u
