@@ -1,2 +1,2 @@
 #!/bin/bash
-chuser -R --vincent tom --guillaume hello
+chown -R --from=guillaume hello
