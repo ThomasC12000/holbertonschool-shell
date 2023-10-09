@@ -1,2 +1,2 @@
 #!/bin/bash
-tree sample
+find ./* -type d -print | wc -l
