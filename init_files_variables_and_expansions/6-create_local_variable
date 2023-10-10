@@ -1,2 +1,2 @@
 #!/bin/bash
-local var=School varName=BEST
+export BEST="School"
