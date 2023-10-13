@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" "$((5#$(echo $WATER | tr 'water')+5#$(echo $STIR | tr 'stir.' )))"
+WATER="$WATER" STIR="$STIR" eval "echo Result in base bestchol: \$(tr -d '[[:space:]]' <<< \$(echo \$((36#$(echo \$WATER|tr a-z 0123456789)|36#$(echo \$STIR|tr a-z 0123456789)))|awk '{printf("%c", $1+55)}'))"
